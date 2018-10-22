@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<l7:Bundle xmlns:l7="http://ns.l7tech.com/2010/04/gateway-management">
+    <l7:References>
+        <l7:Item>
+            <l7:Name>SSL</l7:Name>
+            <l7:Id>00000000000000000000000000000002:SSL</l7:Id>
+            <l7:Type>SSG_KEY_ENTRY</l7:Type>
+            <l7:TimeStamp>2018-10-22T10:28:19.136+05:30</l7:TimeStamp>
+            <l7:Resource>
+                <l7:PrivateKey alias="SSL" id="00000000000000000000000000000002:SSL" keystoreId="00000000000000000000000000000002">
+                    <l7:CertificateChain>
+                        <l7:CertificateData>
+                            <l7:IssuerName>CN=gateway.l7tech.com</l7:IssuerName>
+                            <l7:SerialNumber>11414886489297480345</l7:SerialNumber>
+                            <l7:SubjectName>CN=gateway.l7tech.com</l7:SubjectName>
+                            <l7:Encoded>MIIC/zCCAeegAwIBAgIJAJ5p0siJ+2qZMA0GCSqGSIb3DQEBDAUAMB0xGzAZBgNVBAMTEmdhdGV3YXkubDd0ZWNoLmNvbTAeFw0xODA1MjUwOTQ2MDZaFw0yODA1MjIwOTQ2MDZaMB0xGzAZBgNVBAMTEmdhdGV3YXkubDd0ZWNoLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKFdUd3uEbEi1++dm1e36dem81ErjqDv0nUMWgL9ER/u8dooRKs6fNrLb4/VX2LRIR3kD01v9y4Xon0pnqJ5jAr+VHpsH6SaCMlXnzK6+tkAnRRRR4869q/vrY6TIwjYFX9b6tpDxb5Y/Fjruq4vmokCayO6Na1DCYf4gvu1jvbceRG1dsUhj7FAU+RcV3bZl292Mek9Lk37ghpLL6kNvqJGP12jn7QE26gG02W2YEsytK3OhtaADHdc2eSBt5bAexBPPOp/D2hGIAft3QmtheX5bp8bP5c3eBY/TBxUk7xNFxi3kx2aTQucrDxITfdnY3uHe3nSC6X8bMK0eU5oSbMCAwEAAaNCMEAwHQYDVR0OBBYEFAWytLMw21QRygY9GM7E1WBvJNd8MB8GA1UdIwQYMBaAFAWytLMw21QRygY9GM7E1WBvJNd8MA0GCSqGSIb3DQEBDAUAA4IBAQCYVebKsH7b+IQH28bShJlFaQaS3X1Jh/HneGOvtJvKXiY20mDmzuyTU7xdEmvzHtYO/l/kVEF29+1QEEvRR3skGckCsMi1/sgNW+lXqyCdzHPER5D9uQGAvNJtDpZ+5KKfX+GFQFQNUBkwlGy8Fy3LIDCclgg9wEc1NMDb3m9N66UaXhn9nqknFBrqnIeQsdCZo71XsC/oRZ7UdP662HXfAe+prgVrNbaLtn0dmod8oHNppxOU1+cD8CCyrzloqA3hjqfe0MMW19QeoohP05Yl6YzF7VTT7LMJtkU5f1w0p7oecFh83XXZEZNwHkp8kcB3dBpQ1laz4BJfq2LYal+e</l7:Encoded>
+                        </l7:CertificateData>
+                    </l7:CertificateChain>
+                    <l7:Properties>
+                        <l7:Property key="keyAlgorithm">
+                            <l7:StringValue>RSA</l7:StringValue>
+                        </l7:Property>
+                        <l7:Property key="keyData">
+                            <l7:StringValue algorithm="RSA" bundleKey="$L7C2$1bead,qOlUQDmj3BaEUDgSA7uJ0Yabv7HpP0PAbnhFn8kiOu8=$Sy9AyXu5kFJk3lJbt8ri9lBu7yMRPLdc4r+Ki91n/rC/L2aVa2RFQcn7og0S14IeJDEoWdVPRFXdT5foEiwXBgPzS8B6It4IZvg3V5KxW+sB2HiV6iNr5p4ydZ7eZj0X">$L7C2$1,cPLWh4loaWHfW7lSsF0L1FPfgA+izU3LPmXer6cmQh0=$C0ny9EuJhLbKOaG3xKaXOjwxsbT7mW4Z+k6FudOj1jWr0E6xrC9AXtwmFqmzb+8CihhV5gn3rt+OSipjMgUEdHBdtbieexVRmXo9ta5+r8un/UoX2ZOmHQqCgCQgu+QpicVs8yMvFCQ4eKatG5kx2pEkc57LhdTTvj0HgFnOOyxtlJQ49keyeiBo9w5yIvv9+wKUW0fS9i0YDc96chYHXVe3b1+2eRBa8pCkLMuB6Gw7tJaObcX/9ifowsvyK/oEh3vZZedfPIqxdKv9uLJdlCVdRMiSxOLyQJ2z/2pfo5BAp/JWDkWhAlMWycQP7E8OrSPDsozky5JBDPJVRU1Fjk7PCtlzJgzlIoBZSs7UsB2Uwpx7N9Z5vS+XcZQCVJgLUI7q+oWyauDgTKREWaSv4UkwWLq/U7p7WE//9Piqa6+yiJeBTTGcPMyx1G8yuXCv2v/eQQkYwMTdJaBV8uX4JEfTz1vu3YFwl3qc1Y/bxxBuFFkaDUKHRIrKRDJf5DkgygzZR32BVg7+1cn5EbHxH4hFL7yofKMiM3hwPWasSJSyuzHFNzuRjJDt1FzQeMAHEZLZiZOePMU9TLKLhKgxRQmFTH46ouBocEYyeY87AIP+whKIA0zCTxXKOMkCGUVa0c6DsNlJ3+CUq+KS5jPa2luKM8Ofr3dzqg6lD5B/buoecYpAGpppEsRIqfiKZVOCn7SfB1y0P36mI3JIuucCqcTarDsdh+koYeiaMWtFzN6Dtp+aqunW6u8HXaEZ6wsU4yV8Ad4yuUDLQgs6YEpZq5T2LmkfujbM2PieuHD9QgC9fKmMu/YSnQCPMMT3lwKcCLV9VtedrssZKi/DvURb18G8bWZdCme84fCRLj0/WdjalUk5gsRPRcf11ilS8qSeKdtLt1OO76hgF8f24NLvdfW+/plpqFU5iS6VTv1BW/uKauxi0MAIavN/UrU4lfSW17VhP/g0IKlC55Cx7mgGr2qL95lkRU60oiM8E693OxObDE7MPeGO7jaLvm5aCt3Cq6LewRQW5k/2rGvAFRuuba+5AMmXpP8gsNmr3QKmROaoo7DoH9ffqvHbK841uJDO18oFJlXIlNN2ULrklgrTaTwuUPp69Ij3wUVdmT+hEO/27B0c/qsMeituiFXcGjv5mpf/9X4Aea5lUyc21pdFCCBR97uouLm4mF0f+YdjVGEDQh/Hn7vCJEdK8ZiolvaI/Y+cXXHBeMnMwUrYIrjf6dByPmkB8gbgqlAkpqDdIEfZE1NO8V1b/Cz03vGEptDGMHV4xqcR0nSsKVJMu46LxMpKiX0UyIIDNoALMMfPhHuvBcf37W+tppXBc7ZGIkShX0ESNCKpuvppUGvbMTSd5Wxi8pGnqdOvit1xj5uXrWP3Afgyy+oT4JbCTjEMx0TJga9zMChV49opRspzzQuTf6V9ChB9ToQrUEZEyHkaD9aWvABNwm6GF9uo9KtKuE95KDpMCgVT7Q1u2NezLVCA8kKvWTjnOZTVtoshwFN9b+SVIVmRI9s48AvKJJ/rIZ4LQ/+ykKSu0S4qXzL4m2oiPwaf6Rw3gMFIRnh1V0OGsN196sJfffJ9Z16dolM2gXr0kVrHZELj43nQ7khEjcAB26wUPPJdAuyh6mwkU0uVHYSiB5WoH5LaIluO9p+Jo5uPrr7YaTXgSRTO049xICQ02ENpGUvDF+kVludbdTg2os0=</l7:StringValue>
+                        </l7:Property>
+                        <l7:Property key="specialPurposes">
+                            <l7:StringValue>Default SSL Key</l7:StringValue>
+                        </l7:Property>
+                    </l7:Properties>
+                </l7:PrivateKey>
+            </l7:Resource>
+        </l7:Item>
+        <l7:Item>
+            <l7:Name>layer7</l7:Name>
+            <l7:Id>4a4a0516d1a0aa510aed156aa2e849f4</l7:Id>
+            <l7:Type>SERVICE</l7:Type>
+            <l7:TimeStamp>2018-10-22T10:28:19.170+05:30</l7:TimeStamp>
+            <l7:Resource>
+                <l7:Service id="4a4a0516d1a0aa510aed156aa2e849f4" version="1">
+                    <l7:ServiceDetail folderId="0000000000000000ffffffffffffec76" id="4a4a0516d1a0aa510aed156aa2e849f4" version="1">
+                        <l7:Name>layer7</l7:Name>
+                        <l7:Enabled>true</l7:Enabled>
+                        <l7:ServiceMappings>
+                            <l7:HttpMapping>
+                                <l7:UrlPattern>/layer7</l7:UrlPattern>
+                                <l7:Verbs>
+                                    <l7:Verb>GET</l7:Verb>
+                                    <l7:Verb>POST</l7:Verb>
+                                    <l7:Verb>PUT</l7:Verb>
+                                    <l7:Verb>DELETE</l7:Verb>
+                                </l7:Verbs>
+                            </l7:HttpMapping>
+                        </l7:ServiceMappings>
+                        <l7:Properties>
+                            <l7:Property key="internal">
+                                <l7:BooleanValue>false</l7:BooleanValue>
+                            </l7:Property>
+                            <l7:Property key="policyRevision">
+                                <l7:LongValue>2</l7:LongValue>
+                            </l7:Property>
+                            <l7:Property key="soap">
+                                <l7:BooleanValue>false</l7:BooleanValue>
+                            </l7:Property>
+                            <l7:Property key="tracingEnabled">
+                                <l7:BooleanValue>false</l7:BooleanValue>
+                            </l7:Property>
+                            <l7:Property key="wssProcessingEnabled">
+                                <l7:BooleanValue>false</l7:BooleanValue>
+                            </l7:Property>
+                        </l7:Properties>
+                    </l7:ServiceDetail>
+                    <l7:Resources>
+                        <l7:ResourceSet tag="policy">
+                            <l7:Resource type="policy" version="1">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;wsp:Policy xmlns:L7p="http://www.layer7tech.com/ws/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2002/12/policy"&gt;
+    &lt;wsp:All wsp:Usage="Required"&gt;
+        &lt;L7p:HttpRoutingAssertion&gt;
+            &lt;L7p:ProtectedServiceUrl stringValue="https://www.yahoo.com/"/&gt;
+            &lt;L7p:RequestHeaderRules httpPassthroughRuleSet="included"&gt;
+                &lt;L7p:ForwardAll booleanValue="true"/&gt;
+                &lt;L7p:Rules httpPassthroughRules="included"&gt;
+                    &lt;L7p:item httpPassthroughRule="included"&gt;
+                        &lt;L7p:Name stringValue="Cookie"/&gt;
+                    &lt;/L7p:item&gt;
+                    &lt;L7p:item httpPassthroughRule="included"&gt;
+                        &lt;L7p:Name stringValue="SOAPAction"/&gt;
+                    &lt;/L7p:item&gt;
+                &lt;/L7p:Rules&gt;
+            &lt;/L7p:RequestHeaderRules&gt;
+            &lt;L7p:RequestParamRules httpPassthroughRuleSet="included"&gt;
+                &lt;L7p:ForwardAll booleanValue="true"/&gt;
+                &lt;L7p:Rules httpPassthroughRules="included"/&gt;
+            &lt;/L7p:RequestParamRules&gt;
+            &lt;L7p:ResponseHeaderRules httpPassthroughRuleSet="included"&gt;
+                &lt;L7p:ForwardAll booleanValue="true"/&gt;
+                &lt;L7p:Rules httpPassthroughRules="included"&gt;
+                    &lt;L7p:item httpPassthroughRule="included"&gt;
+                        &lt;L7p:Name stringValue="Set-Cookie"/&gt;
+                    &lt;/L7p:item&gt;
+                &lt;/L7p:Rules&gt;
+            &lt;/L7p:ResponseHeaderRules&gt;
+        &lt;/L7p:HttpRoutingAssertion&gt;
+        &lt;L7p:AuditDetailAssertion&gt;
+            &lt;L7p:Detail stringValue="this is for test purpose"/&gt;
+        &lt;/L7p:AuditDetailAssertion&gt;
+    &lt;/wsp:All&gt;
+&lt;/wsp:Policy&gt;
+</l7:Resource>
+                        </l7:ResourceSet>
+                    </l7:Resources>
+                </l7:Service>
+            </l7:Resource>
+        </l7:Item>
+    </l7:References>
+    <l7:Mappings>
+        <l7:Mapping action="NewOrExisting" srcId="00000000000000000000000000000002:SSL" srcUri="https://gateway1.l7tech.com:8443/restman/1.0/privateKeys/00000000000000000000000000000002:SSL" type="SSG_KEY_ENTRY"/>
+        <l7:Mapping action="NewOrExisting" srcId="0000000000000000ffffffffffffec76" srcUri="https://gateway1.l7tech.com:8443/restman/1.0/folders/0000000000000000ffffffffffffec76" type="FOLDER">
+            <l7:Properties>
+                <l7:Property key="FailOnNew">
+                    <l7:BooleanValue>true</l7:BooleanValue>
+                </l7:Property>
+            </l7:Properties>
+        </l7:Mapping>
+        <l7:Mapping action="NewOrExisting" srcId="4a4a0516d1a0aa510aed156aa2e849f4" srcUri="https://gateway1.l7tech.com:8443/restman/1.0/services/4a4a0516d1a0aa510aed156aa2e849f4" type="SERVICE"/>
+    </l7:Mappings>
+</l7:Bundle>
